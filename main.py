@@ -8,6 +8,5 @@ def print_hi(name):
     serverSay = f'Hi, {name}'
     return serverSay
 
-
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5008)
